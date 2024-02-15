@@ -8,14 +8,9 @@
     </head> 
 
     <body>
-        <div>Profile pic</div>
-        <p>Site Name</p> 
-        <div>Search bar</div>
-        <p>Username</p>
-        <p>Date joined</p>
-        <h1>Title</h1>
-        <div>Personal picture</div>
-        <p> Information about me</p>
-        <Div>Youtube link</Div>
+      <div>Navigation</div>
+      <p>Something is here</p>
+      <div>Gen text</Div>
+      <div>More gen text</div>
     </body>
 </html>
