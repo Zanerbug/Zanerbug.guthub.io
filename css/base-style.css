@@ -11,6 +11,8 @@ header{
 header{ 
     border: 1px solid #000;
     color: #000;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 body{
 background-color: white;
@@ -22,6 +24,7 @@ color: black;
 body{
     border: 1px solid #000;
     color: #000;
+    margin-bottom: 15px;
 }
 menu{
     background-color: white;
@@ -33,6 +36,7 @@ menu{
 menu{
     border: 1px solid #000;
     color: #000;
+    margin-bottom: 15px;
 }
 main{
     background-color: white
@@ -44,6 +48,7 @@ main{
 main{
     border: 1px solid #000;
     color: #000;
+    margin-bottom: 15px;
 }
 footer {
 background-color: white;
@@ -55,6 +60,7 @@ color: #000
 footer {
     border: 1px solid #000;
     color:black; 
+    margin-bottom: 5px;
 }
 ul{ 
     list-style-type: none;
@@ -95,16 +101,12 @@ text-align: center;
 .flex-link, li{
     background: white;
     padding: 5px;
-    width: 80x;
-    height: 80px;
-    margin-top: 8px;
+    width: 5remx;
+    height: 5rem;
+    margin-top: 1rem;
 line-height: 1rem;
 color: #000;
 font-weight: bold;
 font-size: 15px;
 text-align:center
-}
-.flex-link{
-    flex-grow: 1;
-    flex-shrink: 5;
 }
