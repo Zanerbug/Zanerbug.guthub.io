@@ -23,6 +23,17 @@ body{
     border: 1px solid #000;
     color: #000;
 }
+menu{
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+menu{
+    border: 1px solid #000;
+    color: #000;
+}
 main{
     background-color: white
     padding 5px;
@@ -70,4 +81,30 @@ color: #000;
 font-weight: bold;
 font-size: 15px;
 text-align: center;
+}
+.flex-box, ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.flex-link, li{
+    background: white;
+    padding: 5px;
+    width: 80x;
+    height: 80px;
+    margin-top: 8px;
+line-height: 1rem;
+color: #000;
+font-weight: bold;
+font-size: 15px;
+text-align:center
+}
+.flex-link{
+    flex-grow: 1;
+    flex-shrink: 5;
 }
