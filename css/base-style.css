@@ -6,13 +6,13 @@ header{
     padding: 1rem;
     text-align: right;
     font-size: 15px;
-    color:black
+    color: black;
 }
 header{ 
     border: 2px solid #000;
     color: #000;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 15rem;
     
 }
@@ -25,7 +25,7 @@ body{
 }
 body{
     border: 2px solid #000;
-    color: white;
+    color: black;
     margin-bottom: 15px;
 }
 main{
@@ -39,7 +39,7 @@ main{
     border: 2px solid #000;
     color: #000;
     margin-bottom: 15px;
-    height: 30rem
+    height: 20rem;
 }
 menu{
     background-color: white;
@@ -51,24 +51,25 @@ menu{
 menu{
     border: 2px solid #000;
     color: #000;
-    margin-bottom: 15px;
-    height: 5rem;
+    margin-bottom: 10px;
+    height: 3rem;
 }
 footer {
     background-color: white;
-    padding: 0px;
+    padding: 1rem;
     text-align: center;
     font-size: 19px;
     color: #000
 }
 footer {
     border: 2px solid #000;
-    color:black; 
-    margin-bottom: 5px;
+    color: black; 
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 ul{ 
     list-style-type: none;
-   text-decoration: underline;
+    text-decoration: underline;
 }
 .flex-container, ul{
     display: flex;
@@ -79,13 +80,12 @@ ul{
     padding: 0px;
     margin: 0px;
     list-style: none;
-    border: 1px solid;
 }
 .flex-item, li{
     background: white;
-    padding: 20px;
-    width: 80px;
-    height: 80x;
+    padding: 1.5rem;
+    width: 4rem;
+    height: 1rem;
     margin-top: 8px;
     line-height: 60px;
     color: #000;
@@ -93,7 +93,7 @@ ul{
     font-size: 15px;
     text-align: center;
 }
-.flex-box, ul{
+.flex-box, menu{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -128,7 +128,6 @@ ul{
 .flex-link, h3{
     background: white;
     padding: 1px;
-    width: 1remx;
     height: 1rem;
     margin-top: 1rem;
     line-height: 1rem;
@@ -137,13 +136,9 @@ ul{
     font-size: 15px;
     text-align:left;
 }
-Header {
+header {
     background-color:white;  
-    font-size: 1em;
-}
-div,li, img {
-    border: 1px solid #000;
-    color:black; 
+    font-size: 1rem;
 }
 .flex-link a:hover{
     background-color: black;
