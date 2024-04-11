@@ -3,28 +3,43 @@
 }
 header{
     background-color: white;
-    padding: 5px;
+    padding: 1rem;
     text-align: right;
     font-size: 15px;
     color:black
 }
 header{ 
-    border: 1px solid #000;
+    border: 2px solid #000;
     color: #000;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 15rem;
+    
 }
 body{
-background-color: white;
-padding: 5px;
-text-align: center;
-font-size: 15px;
-color: black;
+    background-color:white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
 }
 body{
-    border: 1px solid #000;
+    border: 2px solid #000;
+    color: white;
+    margin-bottom: 15px;
+}
+main{
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+main{
+    border: 2px solid #000;
     color: #000;
     margin-bottom: 15px;
+    height: 30rem
 }
 menu{
     background-color: white;
@@ -34,31 +49,20 @@ menu{
     color: black;
 }
 menu{
-    border: 1px solid #000;
+    border: 2px solid #000;
     color: #000;
     margin-bottom: 15px;
+    height: 5rem;
 }
-main{
-    background-color: white
-    padding 5px;
+footer {
+    background-color: white;
+    padding: 0px;
     text-align: center;
-    font-size: 15px;
-    color: black;
-}
-main{
-    border: 1px solid #000;
-    color: #000;
-    margin-bottom: 15px;
+    font-size: 19px;
+    color: #000
 }
 footer {
-background-color: white;
-padding: 0px;
-text-align: center;
-font-size: 19px;
-color: #000
-}
-footer {
-    border: 1px solid #000;
+    border: 2px solid #000;
     color:black; 
     margin-bottom: 5px;
 }
@@ -67,26 +71,27 @@ ul{
    text-decoration: underline;
 }
 .flex-container, ul{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-flex-flow: row wrap;
-justify-content:end;
-padding: 0px;
-margin: 0px;
-list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content:end;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border: 1px solid;
 }
 .flex-item, li{
-background: white;
-padding: 5px;
-width: 80px;
-height: 80x;
-margin-top: 8px;
-line-height:: 60px;
-color: #000;
-font-weight: bold;
-font-size: 15px;
-text-align: center;
+    background: white;
+    padding: 20px;
+    width: 80px;
+    height: 80x;
+    margin-top: 8px;
+    line-height: 60px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
 }
 .flex-box, ul{
     display: flex;
@@ -100,13 +105,47 @@ text-align: center;
 }
 .flex-link, li{
     background: white;
-    padding: 5px;
-    width: 5remx;
-    height: 5rem;
+    padding: 1px;
+    width: 7rem;
+    height: 2rem;
     margin-top: 1rem;
-line-height: 1rem;
-color: #000;
-font-weight: bold;
-font-size: 15px;
-text-align:center
+    line-height: 1rem;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.flex-container, h3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: end;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.flex-link, h3{
+    background: white;
+    padding: 1px;
+    width: 1remx;
+    height: 1rem;
+    margin-top: 1rem;
+    line-height: 1rem;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    text-align:left;
+}
+Header {
+    background-color:white;  
+    font-size: 1em;
+}
+div,li, img {
+    border: 1px solid #000;
+    color:black; 
+}
+.flex-link a:hover{
+    background-color: black;
+    color: white;
 }
